@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 25px 0px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #666;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.width-100 {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+}
+
+.nav {
+  width: 30%;
+  float: left;
+  padding: 20px 20px;
+  border-left: 6px solid;
+  background-color: #ccc;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.nav li {
+  width: 80%;
+  height: 3rem;
+  padding: 1rem;
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1.2rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+article {
+  width: 70%;
+  float: left;
+  padding: 0px 20px 20px 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.2rem;
+  padding: 36px 32px 0px 32px;
+}
+
+.icons {
+  width: 100%;
+  float: left;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 17px 40px;
+}
+
+h2,
+.icons {
+  background-color: #f1f1f1;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  background-color: #777;
+}
+
+p {
+  color: #ffffff;
+}
+
+footer p a {
+  color: #ffffff;
+}
+
+footer p a:hover {
+  color: #000;
+  border-bottom: 2px solid;
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+  .nav {
+    border-left: none;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+
+  .nav li:hover {
+    background-color: #666;
+  }
+
+  article {
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Tablet */
+@media (max-width: 769px) {
+  .nav {
+    border-left: none;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+
+  .nav li:hover {
+    background-color: #666;
+  }
+
+  article {
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
